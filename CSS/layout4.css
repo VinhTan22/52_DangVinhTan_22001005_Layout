@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header, footer {
+    background-color: #6699cc;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+nav {
+    background-color: #336699;
+    color: white;
+    padding: 10px;
+    width: 20%;
+    float: left;
+    height: calc(100% - 80px); /* Trừ chiều cao của header và footer */
+}
+section {
+    float: left;
+    background-color: #f2d1c9;
+    padding: 10px;
+    width: 80%;
+    height: calc(100% - 80px); /* Trừ chiều cao của header và footer */
+}
+article {
+    background-color: #fcece2;
+    height: 100%;
+}
+  

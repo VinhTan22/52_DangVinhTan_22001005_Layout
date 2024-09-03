@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header, footer {
+    background-color: #99CC66;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+nav {
+    background-color: #99CC66;
+    color: white;
+    padding: 10px;
+    height: 50px;
+}
+section {
+    background-color: #99CC66;
+    padding: 10px;
+    height: calc(100vh - 140px); 
+}
+article {
+    background-color: #fcece2;
+    padding: 10px;
+    height: 100%;
+}
